@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;qCAEqC;AAarC;;qCAEqC;AAOrC;;qCAEqC;AAiBrC;;qCAEqC;AACrC,AAAA,KAAK,CAAA;EACD,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "../mixins/variable.scss"
+    ],
+    "names": [],
+    "file": "variable.css"
+}

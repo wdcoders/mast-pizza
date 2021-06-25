@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AA8CA,AAAA,KAAK,AAAA,CACD,WAAW,CAAE,GAAG,CAChB,SAAS,CAAE,IAAI,CAClB",
+    "sources": [
+        "../mixins/variable.scss"
+    ],
+    "names": [],
+    "file": "variable.min.css"
+}

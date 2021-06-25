@@ -1,0 +1,50 @@
+/***********************************
+COLOR SETTING
+************************************/
+$wdBgColor:#F2F2F2;
+
+// $primary: #D1411E;
+$primary: #ff4700;
+$secondary: #303030;
+$footer: #121212;
+
+
+// SETTINGS
+$navbarHeight: 57px;
+
+
+/***********************************
+FONT
+************************************/
+$fontFamily:'Roboto', sans-serif;
+$OswaldfontFamily:'Oswald', Sans-serif;
+$CookiefontFamily:'Cookie', cursive;
+$LorafontFamily:'Lora', serif;
+//$fontFamily:Helvetica,Arial,sans-serif;
+
+/***********************************
+BLOCKS BORDER
+************************************/
+@mixin block_border($side) {
+    @if $side == all{
+        border:1px solid rgba(0, 40, 100, 0.12);
+    } @else {
+        border-#{$side}:1px solid rgba(0, 40, 100, 0.12);
+    }
+}
+
+@mixin box_transition() {
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+
+/***********************************
+FORMS LABEL
+************************************/
+label{
+    font-weight: 500;
+    font-size: 14px;
+}
